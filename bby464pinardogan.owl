@@ -1,0 +1,613 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/M7BUzjEM2fSWSYUoXzMDZ#"
+     xml:base="http://webprotege.stanford.edu/project/M7BUzjEM2fSWSYUoXzMDZ"
+     xmlns:webprotege="http://webprotege.stanford.edu/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/M7BUzjEM2fSWSYUoXzMDZ"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZMKUPrPj2H4hZPxtemNIZ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RZMKUPrPj2H4hZPxtemNIZ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>PlayersNationality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R709l6rglXLkEf1kIpG48cw -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R709l6rglXLkEf1kIpG48cw">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Player&apos;sRank</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7KftvRe8hXF61XdRJk3V5L -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7KftvRe8hXF61XdRJk3V5L">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Time</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R99FTrx0rqYoOG4jgEEZafr -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R99FTrx0rqYoOG4jgEEZafr">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>PlaceofWinning</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpqZgNClc5VqoSKEp0APsg -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RpqZgNClc5VqoSKEp0APsg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="tr">Birthdate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7UKS7AfI5Gmwgj4gEKRle2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7UKS7AfI5Gmwgj4gEKRle2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCMAbNVxsTa3Sl57MtFbs4C"/>
+        <rdfs:label>FlagRaces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7jI0QelaIuHOzsJlawMtYE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7jI0QelaIuHOzsJlawMtYE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8IsutMMZKni7CYrQ7qQIIO"/>
+        <rdfs:label>RunningofTrack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ti27RUmIbkQWLAS6ZhuX2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ti27RUmIbkQWLAS6ZhuX2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCpyBCjv3pzIHS4Ligd3GYJ"/>
+        <rdfs:label>800meters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7wL45OXmhnwjXUsZza80cE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7wL45OXmhnwjXUsZza80cE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCpyBCjv3pzIHS4Ligd3GYJ"/>
+        <rdfs:label>1500meters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R87c1kYx5xQX9O0lWZw0WcM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R87c1kYx5xQX9O0lWZw0WcM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8DhH03IM8Oh86nytqpj1Qf"/>
+        <rdfs:label>5000meters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8DhH03IM8Oh86nytqpj1Qf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8DhH03IM8Oh86nytqpj1Qf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCMAbNVxsTa3Sl57MtFbs4C"/>
+        <rdfs:label>LongDistanceRun</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8HUp35aXr2V8eqU7kcpVzp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8HUp35aXr2V8eqU7kcpVzp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8IsutMMZKni7CYrQ7qQIIO"/>
+        <rdfs:label>Walking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8IsutMMZKni7CYrQ7qQIIO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8IsutMMZKni7CYrQ7qQIIO">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="tr">Çeşitli mesafelerde koşularak rakiplere ve zamana karşı yapılan mücadeledir.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RoadRaces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9KVfGNak7fzx5uNUmeY06W -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9KVfGNak7fzx5uNUmeY06W">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8HUp35aXr2V8eqU7kcpVzp"/>
+        <rdfs:label>20kilometers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9onkn08vYmKX8Xx501IzfA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9onkn08vYmKX8Xx501IzfA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7UKS7AfI5Gmwgj4gEKRle2"/>
+        <rdfs:label>4x100meters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBZZPuaTGAzAWnhLlLAZ5aI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBZZPuaTGAzAWnhLlLAZ5aI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYg8zfr4Yx9KtykHNse0f2"/>
+        <rdfs:comment xml:lang="tr">Sürat koşularının en kısa olanıdır.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100meters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBruBNgJ9H2QpJYIRTm2WTt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBruBNgJ9H2QpJYIRTm2WTt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8HUp35aXr2V8eqU7kcpVzp"/>
+        <rdfs:label>50kilometers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBMwMblkp0KXFWpPCxF0O1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCBMwMblkp0KXFWpPCxF0O1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8DhH03IM8Oh86nytqpj1Qf"/>
+        <rdfs:label>3000meters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCMAbNVxsTa3Sl57MtFbs4C -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCMAbNVxsTa3Sl57MtFbs4C">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="tr">Genellikle 400 metrelik elips şeklindeki pistlerde yapılır.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TrackEvents</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpyBCjv3pzIHS4Ligd3GYJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCpyBCjv3pzIHS4Ligd3GYJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCMAbNVxsTa3Sl57MtFbs4C"/>
+        <rdfs:comment xml:lang="tr">Dünyada en ünlü orta mesafe koşucuları; Finli atletler Paavo Nurmi ve Lasse Viren&apos;dir.</rdfs:comment>
+        <rdfs:label>MediumDistanceRun</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCww0Z75BnABvo5Bo81Woel -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCww0Z75BnABvo5Bo81Woel">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8IsutMMZKni7CYrQ7qQIIO"/>
+        <rdfs:label>RunningofMoor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDq5cgq6bWVP2PbRcc8EXOR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDq5cgq6bWVP2PbRcc8EXOR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8DhH03IM8Oh86nytqpj1Qf"/>
+        <rdfs:label>10000meters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RF9inZA6vihJyNj489QfYc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RF9inZA6vihJyNj489QfYc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYg8zfr4Yx9KtykHNse0f2"/>
+        <rdfs:label>400meters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RI7wWWTxLrKzgJsiTgokua -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RI7wWWTxLrKzgJsiTgokua">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYg8zfr4Yx9KtykHNse0f2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200meters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYg8zfr4Yx9KtykHNse0f2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RYg8zfr4Yx9KtykHNse0f2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCMAbNVxsTa3Sl57MtFbs4C"/>
+        <rdfs:label>Speed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhPqQXSLaRwgjpC1rLB7OZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RhPqQXSLaRwgjpC1rLB7OZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8IsutMMZKni7CYrQ7qQIIO"/>
+        <rdfs:label>Marathon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7MLXycdzCUWyjJzAf7ejH9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7MLXycdzCUWyjJzAf7ejH9">
+        <rdfs:label>Bahamalar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7d3PZAVYkwGbz1aYb5NpJV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7d3PZAVYkwGbz1aYb5NpJV">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7ti27RUmIbkQWLAS6ZhuX2"/>
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/R9X4X3gZXCOEXC6mcHee5zA"/>
+        <webprotege:R709l6rglXLkEf1kIpG48cw xml:lang="tr">1.</webprotege:R709l6rglXLkEf1kIpG48cw>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">1:43:60</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">Torrance</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <webprotege:RpqZgNClc5VqoSKEp0APsg xml:lang="tr">1995</webprotege:RpqZgNClc5VqoSKEp0APsg>
+        <rdfs:label xml:lang="tr">ClaytonMurphy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7nLugLNgOkq6ENAceDtDQz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7nLugLNgOkq6ENAceDtDQz">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBZZPuaTGAzAWnhLlLAZ5aI"/>
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/RRBck4bL2S1tbhEl8DCcGp"/>
+        <webprotege:R709l6rglXLkEf1kIpG48cw xml:lang="tr">1.</webprotege:R709l6rglXLkEf1kIpG48cw>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">9:88</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">Lusaka</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <webprotege:RpqZgNClc5VqoSKEp0APsg xml:lang="tr">1997</webprotege:RpqZgNClc5VqoSKEp0APsg>
+        <rdfs:label xml:lang="tr">SydneySiame</rdfs:label>
+        <rdfs:seeAlso xml:lang="tr">200 metrede 2. ve 3. olmuştur.</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7rHC6Xz7Pi9VQzph2BSBYP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7rHC6Xz7Pi9VQzph2BSBYP">
+        <rdfs:label>Kenya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R83RZfYyDoQMUYyOpZqXzE7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R83RZfYyDoQMUYyOpZqXzE7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RhPqQXSLaRwgjpC1rLB7OZ"/>
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/R7rHC6Xz7Pi9VQzph2BSBYP"/>
+        <webprotege:R709l6rglXLkEf1kIpG48cw xml:lang="tr">1.</webprotege:R709l6rglXLkEf1kIpG48cw>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">2:03:38</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">Berlin</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <webprotege:RpqZgNClc5VqoSKEp0APsg xml:lang="tr">1985</webprotege:RpqZgNClc5VqoSKEp0APsg>
+        <rdfs:label xml:lang="tr">PatrickMakau</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ZY6mgUaI450AzZpk3fetE -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ZY6mgUaI450AzZpk3fetE">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R87c1kYx5xQX9O0lWZw0WcM"/>
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/R92UEQ7spbjnyOPr7I31X7M"/>
+        <webprotege:R709l6rglXLkEf1kIpG48cw xml:lang="tr">1.</webprotege:R709l6rglXLkEf1kIpG48cw>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">13:22:93</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">Auckland</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <webprotege:RpqZgNClc5VqoSKEp0APsg xml:lang="tr">1991</webprotege:RpqZgNClc5VqoSKEp0APsg>
+        <rdfs:label xml:lang="tr">BrettRobinson</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8prDQhmAhFjrLSgeOMbpQx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8prDQhmAhFjrLSgeOMbpQx">
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/R9hqCiDrUb0nvIk1MMJ1SCP"/>
+        <webprotege:R709l6rglXLkEf1kIpG48cw xml:lang="tr">1.</webprotege:R709l6rglXLkEf1kIpG48cw>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">19:95</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">Pretoria</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <webprotege:RpqZgNClc5VqoSKEp0APsg xml:lang="tr">1993</webprotege:RpqZgNClc5VqoSKEp0APsg>
+        <rdfs:seeAlso xml:lang="tr">100 metrede ise 2. olmuştur.</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R92UEQ7spbjnyOPr7I31X7M -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R92UEQ7spbjnyOPr7I31X7M">
+        <rdfs:label>Avustralya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9NF3rkY7DJsv1JunZzmxvu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9NF3rkY7DJsv1JunZzmxvu"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Q6JmqGlXbhjl91dYr8n8K -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9Q6JmqGlXbhjl91dYr8n8K">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDq5cgq6bWVP2PbRcc8EXOR"/>
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/R9X4X3gZXCOEXC6mcHee5zA"/>
+        <webprotege:R709l6rglXLkEf1kIpG48cw xml:lang="tr">1.</webprotege:R709l6rglXLkEf1kIpG48cw>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">28:03:83</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">PaloAlto</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <webprotege:RpqZgNClc5VqoSKEp0APsg xml:lang="tr">1993</webprotege:RpqZgNClc5VqoSKEp0APsg>
+        <rdfs:label xml:lang="tr">AbbabiyaSimbassa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9X4X3gZXCOEXC6mcHee5zA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9X4X3gZXCOEXC6mcHee5zA">
+        <rdfs:label>Amerika</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9hqCiDrUb0nvIk1MMJ1SCP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9hqCiDrUb0nvIk1MMJ1SCP">
+        <rdfs:label>GüneyAfrika</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6CSgraNPqwtdF2Iom9JTh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB6CSgraNPqwtdF2Iom9JTh">
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/R9X4X3gZXCOEXC6mcHee5zA"/>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">28:03:83</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">PaloAlto</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <rdfs:label xml:lang="tr">AbbabiyaSimbassa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBUijoVtuGt1iOwIz4LWqSd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBUijoVtuGt1iOwIz4LWqSd">
+        <rdfs:label>GüneyAfrik</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpylrlNcE5A8qMRnUEpPz3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBpylrlNcE5A8qMRnUEpPz3">
+        <rdfs:label>Kanada</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBu7LpvN45OJGTduQoagWSJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBu7LpvN45OJGTduQoagWSJ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RF9inZA6vihJyNj489QfYc"/>
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/R7MLXycdzCUWyjJzAf7ejH9"/>
+        <webprotege:R709l6rglXLkEf1kIpG48cw xml:lang="tr">1.</webprotege:R709l6rglXLkEf1kIpG48cw>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">44:26</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">St.George&apos;s</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <webprotege:RpqZgNClc5VqoSKEp0APsg xml:lang="tr">1995</webprotege:RpqZgNClc5VqoSKEp0APsg>
+        <rdfs:label xml:lang="tr">StevenGardiner</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBwvunuUHdVvtbAv6qzeLp3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBwvunuUHdVvtbAv6qzeLp3">
+        <rdfs:label>Norveç</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC13TeKgizS25laIp9xMrAH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC13TeKgizS25laIp9xMrAH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCBMwMblkp0KXFWpPCxF0O1"/>
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/R7rHC6Xz7Pi9VQzph2BSBYP"/>
+        <webprotege:R709l6rglXLkEf1kIpG48cw xml:lang="tr">1.</webprotege:R709l6rglXLkEf1kIpG48cw>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">7:20:62</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">Amerika</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <webprotege:RpqZgNClc5VqoSKEp0APsg xml:lang="tr">1976</webprotege:RpqZgNClc5VqoSKEp0APsg>
+        <rdfs:label xml:lang="tr">DanielKomen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJ66HHF56X2VGXk6j1fQdt -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCJ66HHF56X2VGXk6j1fQdt">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9onkn08vYmKX8Xx501IzfA"/>
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/RBpylrlNcE5A8qMRnUEpPz3"/>
+        <webprotege:R709l6rglXLkEf1kIpG48cw xml:lang="tr">1.</webprotege:R709l6rglXLkEf1kIpG48cw>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">38:15</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">Gainesville</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <webprotege:RpqZgNClc5VqoSKEp0APsg xml:lang="tr">1991</webprotege:RpqZgNClc5VqoSKEp0APsg>
+        <rdfs:label xml:lang="tr">Canada</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpg536qdVSgprTtvC0HKUc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCpg536qdVSgprTtvC0HKUc">
+        <rdfs:label>Çin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFPFh90bFyj5FXj7zF0gYg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDFPFh90bFyj5FXj7zF0gYg">
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/RBwvunuUHdVvtbAv6qzeLp3"/>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">3:43:40</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">Dudince</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <rdfs:label xml:lang="tr">HarvardHaukenes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZfzx0fUaR61KAdjOXF4Ku -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDZfzx0fUaR61KAdjOXF4Ku">
+        <rdfs:label>İngiltere</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REB2sKefOn2LIl31LV4fom -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/REB2sKefOn2LIl31LV4fom">
+        <rdfs:label>Brezilya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJoe3ZQDoujwSESHWrgSh8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RJoe3ZQDoujwSESHWrgSh8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RI7wWWTxLrKzgJsiTgokua"/>
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/R9hqCiDrUb0nvIk1MMJ1SCP"/>
+        <webprotege:R709l6rglXLkEf1kIpG48cw xml:lang="tr">1.</webprotege:R709l6rglXLkEf1kIpG48cw>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">19:95</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">Pretoria</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <webprotege:RpqZgNClc5VqoSKEp0APsg xml:lang="tr">1993</webprotege:RpqZgNClc5VqoSKEp0APsg>
+        <rdfs:label xml:lang="tr">AkaniSimbine</rdfs:label>
+        <rdfs:seeAlso xml:lang="tr">100 metrede 2. olmuştur.</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRBck4bL2S1tbhEl8DCcGp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RRBck4bL2S1tbhEl8DCcGp">
+        <rdfs:label>Zambiya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdfaSdfa6RVhIkQJwaCBUL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RdfaSdfa6RVhIkQJwaCBUL">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBruBNgJ9H2QpJYIRTm2WTt"/>
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/RBwvunuUHdVvtbAv6qzeLp3"/>
+        <webprotege:R709l6rglXLkEf1kIpG48cw xml:lang="tr">1.</webprotege:R709l6rglXLkEf1kIpG48cw>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">3:43:40</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">Dudince</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <webprotege:RpqZgNClc5VqoSKEp0APsg xml:lang="tr">1990</webprotege:RpqZgNClc5VqoSKEp0APsg>
+        <rdfs:label xml:lang="tr">HarvardHaukenes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkwzBi1MXOXKYD9MPlGepN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RkwzBi1MXOXKYD9MPlGepN">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7wL45OXmhnwjXUsZza80cE"/>
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/RDZfzx0fUaR61KAdjOXF4Ku"/>
+        <webprotege:R709l6rglXLkEf1kIpG48cw xml:lang="tr">1.</webprotege:R709l6rglXLkEf1kIpG48cw>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">3:35:99</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">Azusa</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <webprotege:RpqZgNClc5VqoSKEp0APsg xml:lang="tr">1984</webprotege:RpqZgNClc5VqoSKEp0APsg>
+        <rdfs:label xml:lang="tr">JoshKerr</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rvyl7fRfHJfm1d7rsyNUD8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rvyl7fRfHJfm1d7rsyNUD8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9KVfGNak7fzx5uNUmeY06W"/>
+        <webprotege:RZMKUPrPj2H4hZPxtemNIZ rdf:resource="http://webprotege.stanford.edu/RCpg536qdVSgprTtvC0HKUc"/>
+        <webprotege:R709l6rglXLkEf1kIpG48cw xml:lang="tr">1.</webprotege:R709l6rglXLkEf1kIpG48cw>
+        <webprotege:R7KftvRe8hXF61XdRJk3V5L xml:lang="tr">1:17:54</webprotege:R7KftvRe8hXF61XdRJk3V5L>
+        <webprotege:R99FTrx0rqYoOG4jgEEZafr xml:lang="tr">Huangshan</webprotege:R99FTrx0rqYoOG4jgEEZafr>
+        <webprotege:RpqZgNClc5VqoSKEp0APsg xml:lang="tr">1994</webprotege:RpqZgNClc5VqoSKEp0APsg>
+        <rdfs:label xml:lang="tr">KaihauWang</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rwu3NIckFBYkXWewgZfDee -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rwu3NIckFBYkXWewgZfDee">
+        <rdfs:label>İngilter</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.3.1) https://github.com/owlcs/owlapi -->
+
